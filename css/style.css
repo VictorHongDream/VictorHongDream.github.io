@@ -54,7 +54,7 @@ ul{
 .about,.about-skills,.gallery,.about-education,.w3layoutsbooking{padding:3em 0;}
 /*-- header styling starts here --*/
 .agileits_main{
-	background:url(../images/street.jpg);
+	background:url(../images/ab.jpg);
     background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover;
@@ -499,7 +499,7 @@ p.agile-br {
                                            background:#3b5998;}
 .social-wthree-icons span.fa-twitter:hover{color:white;
                                            background:#1da1f2;}
-.social-wthree-icons span.fa-google-plus:hover{color:white;
+.social-wthree-icons span.fa-weibo:hover{color:white;
                                            background:#dd4b39;}
 .social-wthree-icons span.fa-dribbble:hover{color:white;
                                            background:#ea4c89;}										   
