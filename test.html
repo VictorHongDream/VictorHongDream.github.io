@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<script src="http://cdn.staticfile.org/jquery/1.9.1/jquery.min.js"></script>
+<style>
+    body{ text-align:center} 
+</style>
+</head>
+
+<body>
+<br>
+<br>
+<br>
+
+<script>
+function get_cid(aid){
+    return 'https://api.bilibili.com/x/web-interface/view?aid=' + aid;
+}
+
+function PP(){
+    window.alert("sometext");
+}
+
+
+</script>
+
+<button onclick='PP();'>提示</button>
+
+<br>
+
+<p>
+    <button onclick='document.getElementById("me").innerHTML = get_cid(5);'>Display</button>
+</p>
+
+<p id = "me">
+    ds
+</p>
+
+</body>
+</html>
